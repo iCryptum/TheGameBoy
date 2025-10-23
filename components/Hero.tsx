@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
                   </p>
                 </div>
                 <p className="mt-12 text-sm text-gray-400 tracking-wider">
-                    By Lukas Bethea — 25+ years of experience
+                    By Loukas Bethea — 25+ years of experience
                 </p>
             </div>
         </section>

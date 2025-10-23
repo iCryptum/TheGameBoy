@@ -34,7 +34,7 @@ const Experience: React.FC = () => {
                     <h2 className="text-3xl font-extrabold text-white sm:text-4xl">Experience That Counts</h2>
                     <div className="mt-4 h-1 w-24 bg-[#FF6700] mx-auto"></div>
                     <p className="mt-6 text-lg text-gray-400 leading-relaxed">
-                        With over 25 years of experience in wild game processing, Lukas delivers unmatched precision and quality. From skinning to deboning and packaging, each deer is handled individually — ensuring integrity, freshness, and respect for your harvest.
+                        With over 25 years of experience in wild game processing, Loukas delivers unmatched precision and quality. From skinning to deboning and packaging, each deer is handled individually — ensuring integrity, freshness, and respect for your harvest.
                     </p>
                 </div>
 

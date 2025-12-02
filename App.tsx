@@ -9,6 +9,7 @@ import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FloatingWhatsAppButton from './components/FloatingWhatsAppButton';
+import VideoReels from './components/VideoReels';
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
       <Header />
       <main>
         <Hero />
+        <VideoReels />
         <About />
         <Experience />
         <Process />

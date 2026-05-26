@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import ShopifyBuyButton from './components/ShopifyBuyButton';
 import About from './components/About';
 import Experience from './components/Experience';
 import Process from './components/Process';
@@ -18,7 +17,6 @@ const App: React.FC = () => {
       <Header />
       <main>
         <Hero />
-        <ShopifyBuyButton />
         <VideoReels />
         <About />
         <Experience />

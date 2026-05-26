@@ -1,5 +1,6 @@
 import React from 'react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
+import ShopifyBuyButton from './ShopifyBuyButton';
 
 const Hero: React.FC = () => {
     const { ref, controls } = useScrollAnimation();
@@ -31,6 +32,12 @@ const Hero: React.FC = () => {
                         Book Your Deer Processing
                     </a>
                 </div>
+                
+                {/* Book purchase integration */}
+                <div className="mt-12 w-full flex justify-center">
+                    <ShopifyBuyButton />
+                </div>
+                
                 <div className="mt-8">
                   <p className="text-lg font-bold border-2 border-[#FF6700] inline-block px-4 py-2 rounded-md">
                       Boneless starting at $169
